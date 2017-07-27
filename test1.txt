@@ -1,0 +1,3 @@
+AMZN - 90,MS - 80
+GOOG - 100,AMZN - 90,MS - 80
+AMZN - 90
