@@ -30,6 +30,10 @@ In Goals enter "clean package exec:java -DFileName=test.txt".
 
 In Goals  'test.txt' is input file you can also use 'test1.txt'
 
+You can also check for any other stockfile you want but that file should be added in location where the 'test.txt' is placed.
+
+Please add the price for new stock in rate.txt. 
+
 Then console will display the  result as we expect and also Junit testcases.
 
 
