@@ -26,7 +26,9 @@ Please make sure compling the code in jdk 1.7.
 
 Please right click on pom.xml file and click on 'Run As' then select 'Maven build'
 
-In Goals enter "clean package exec:java -DFileName=test.txt" here  'test.txt' is input file you can also use 'test1.txt'
+In Goals enter "clean package exec:java -DFileName=test.txt".
+
+In Goals  'test.txt' is input file you can also use 'test1.txt'
 
 Then console will display the  result as we expect and also Junit testcases.
 
