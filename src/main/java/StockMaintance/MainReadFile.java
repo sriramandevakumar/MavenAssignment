@@ -44,10 +44,10 @@ public class MainReadFile {
 		    	     list.add(entry.getKey());
 		    	   }
 		    	   Collections.sort(list, Collections.reverseOrder());
-		    	   for(Double D:list){
+		    	   for(Double DoubleValue:list){
 		    		  for (Entry<Double, String> entry : entrySet) 
 			    	   {
-		    			  if(D==entry.getKey()){
+		    			  if(DoubleValue==entry.getKey()){
 		    				  System.out.println(entry.getValue());
 		    				  versionString.put(entry.getKey(),entry.getValue());
 		    			  }
@@ -77,8 +77,8 @@ public class MainReadFile {
 		            	List<String> LineSpliter = Arrays.asList(line.split("-"));
 		            	if(LineSpliter.size()>=2){
 			            	String Key=LineSpliter.get(0).trim();
-			            	double VAlue=Double.parseDouble(LineSpliter.get(1).trim());
-			            	hash.put(Key, VAlue);
+			            	double Value=Double.parseDouble(LineSpliter.get(1).trim());
+			            	hash.put(Key, Value);
 		            	}
 	            	}
 	            }
